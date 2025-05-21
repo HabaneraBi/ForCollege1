@@ -18,10 +18,10 @@ const App = () => {
       <div className="bg-[#f7f8fa] flex flex-col min-h-screen">
         <Header />
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/search" element={<Search />} />
-          <Route path="/seat" element={<Seat />} />
-          <Route path="/book" element={<Book />} />
+          <Route path="/ForCollege1/" element={<Landing />} />
+          <Route path="/ForCollege1/search" element={<Search />} />
+          <Route path="/ForCollege1/seat" element={<Seat />} />
+          <Route path="/ForCollege1/book" element={<Book />} />
         </Routes>
         <Footer />
       </div>

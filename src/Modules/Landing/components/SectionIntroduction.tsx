@@ -1,3 +1,8 @@
+import intro1 from "/src/UI/icons/introduction1.jpg";
+import intro2 from "/src/UI/icons/introduction2.jpg";
+import intro3 from "/src/UI/icons/introduction3.jpg";
+import intro4 from "/src/UI/icons/introduction4.jpg";
+
 export const SectionIntroduction = () => {
   return (
     <section className="bg-[#f7f8fa] flex flex-col items-center pt-8 px-4 min-h-165 justify-center gap-4 lg:flex-row xl:gap-0">
@@ -19,12 +24,24 @@ export const SectionIntroduction = () => {
       </div>
       <div className="flex min-h-62.5 w-full justify-center gap-2 sm:gap-4 lg:w-1/3 2xl:w-1/2">
         <div className="flex flex-col min-w-30 min-h-62.5 justify-center gap-2 sm:gap-4">
-          <div className="rounded-4xl w-30 h-45 bg-[url(src/UI/icons/introduction1.jpg)] shadow-2xl bg-cover sm:w-42.5 sm:h-63.75 2xl:w-73.75 2xl:h-[442.5px]"></div>
-          <div className="rounded-4xl w-30 h-15 bg-[url(src/UI/icons/introduction3.jpg)] shadow-2xl bg-cover sm:w-42.5 sm:h-21.25 2xl:w-73.75 2xl:h-[147.5px]"></div>
+          <div
+            style={{ backgroundImage: `url(${intro1})` }}
+            className={`rounded-4xl w-30 h-45 shadow-2xl bg-cover sm:w-42.5 sm:h-63.75 2xl:w-73.75 2xl:h-[442.5px]`}
+          ></div>
+          <div
+            style={{ backgroundImage: `url(${intro3})` }}
+            className={`rounded-4xl w-30 h-15 shadow-2xl bg-cover sm:w-42.5 sm:h-21.25 2xl:w-73.75 2xl:h-[147.5px]`}
+          ></div>
         </div>
         <div className="flex flex-col min-w-30 min-h-62.5 justify-center gap-2 sm:gap-4">
-          <div className="rounded-4xl w-30 h-15 bg-[url(src/UI/icons/introduction2.jpg)] shadow-2xl bg-cover sm:w-42.5 sm:h-21.25 2xl:w-73.75 2xl:h-[147.5px]"></div>
-          <div className="rounded-4xl w-30 h-45 bg-[url(src/UI/icons/introduction4.jpg)] shadow-2xl bg-cover sm:w-42.5 sm:h-63.75 2xl:w-73.75 2xl:h-[442.5px]"></div>
+          <div
+            style={{ backgroundImage: `url(${intro2})` }}
+            className={`rounded-4xl w-30 h-15 shadow-2xl bg-cover sm:w-42.5 sm:h-21.25 2xl:w-73.75 2xl:h-[147.5px]`}
+          ></div>
+          <div
+            style={{ backgroundImage: `url(${intro4})` }}
+            className={`rounded-4xl w-30 h-45 shadow-2xl bg-cover sm:w-42.5 sm:h-63.75 2xl:w-73.75 2xl:h-[442.5px]`}
+          ></div>
         </div>
       </div>
     </section>

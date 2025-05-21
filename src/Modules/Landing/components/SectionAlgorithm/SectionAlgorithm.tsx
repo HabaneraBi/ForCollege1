@@ -1,6 +1,7 @@
 import { AlgorithmItem } from "./components/AlgorithmItem";
 import { globalContext } from "../../../../App/context";
 import { useContext } from "react";
+import children from "/src/UI/icons/children.jpg";
 
 export const Algorithm = () => {
   const context = useContext(globalContext);
@@ -27,7 +28,8 @@ export const Algorithm = () => {
           typeColorSet="2"
         />
         <AlgorithmItem
-          classNameDiv="relative border bg-center border-[#005aab] bg-[url(src/UI/icons/children.jpg)] bg-cover before:size-full before:top-0 before:left-0 before:bg-[#005aab] before:absolute before:rounded-3xl before:opacity-50"
+          url={children}
+          classNameDiv="relative border bg-center border-[#005aab] bg-cover before:size-full before:top-0 before:left-0 before:bg-[#005aab] before:absolute before:rounded-3xl before:opacity-50"
           digit="2"
           text="Выбрать количество участников"
           typeColorSet="1"

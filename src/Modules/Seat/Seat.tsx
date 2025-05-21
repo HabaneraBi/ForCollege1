@@ -35,7 +35,7 @@ export const Seat = () => {
         </div>
       </div>
       <Link
-        to="/book"
+        to="/ForCollege1/book"
         className="self-center font-semibold text-center text-white py-2 rounded-2xl cursor-pointer bg-[#005aab] w-1/2 hover:bg-[#026bc7] transition-colors duration-300 ease-in-out active:bg-[#02549c] active:transition-none"
       >
         Забронировать

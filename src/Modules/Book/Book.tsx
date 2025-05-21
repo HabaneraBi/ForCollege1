@@ -1,6 +1,5 @@
 import { Input } from "../../Components/Input";
 import { SelectPrice } from "./components/SelectPrice";
-import { Link } from "react-router";
 
 export const Book = () => {
   return (
@@ -40,12 +39,9 @@ export const Book = () => {
           className="w-full h-30 pt-2 bg-white rounded-3xl pl-2 outline-none focus:outline-1 focus:outline-black"
           placeholder="Ваш комментарий"
         ></textarea>
-        <Link
-          className="text-center text-white py-2 rounded-2xl cursor-pointer bg-[#005aab] w-1/3 hover:bg-[#026bc7] transition-colors duration-300 ease-in-out active:bg-[#02549c] active:transition-none"
-          to="/search"
-        >
+        <a className="text-center text-white py-2 rounded-2xl cursor-pointer bg-[#005aab] w-1/3 hover:bg-[#026bc7] transition-colors duration-300 ease-in-out active:bg-[#02549c] active:transition-none">
           Забронировать
-        </Link>
+        </a>
       </div>
     </section>
   );

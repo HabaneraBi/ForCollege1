@@ -5,6 +5,7 @@ interface AlgorithmItemProps {
   classNameDiv: string;
   typeColorSet: string;
   zIndex?: string;
+  url?: string;
 }
 
 export const AlgorithmItem: FC<AlgorithmItemProps> = ({
@@ -13,9 +14,11 @@ export const AlgorithmItem: FC<AlgorithmItemProps> = ({
   classNameDiv,
   typeColorSet,
   zIndex,
+  url,
 }) => {
   return (
     <div
+      style={{ backgroundImage: `url(${url})` }}
       className={`flex flex-col p-3 min-h-30 rounded-3xl sm:h-40 lg:h-60 xl:h-40 2xl:h-60 ${classNameDiv}`}
     >
       <span
