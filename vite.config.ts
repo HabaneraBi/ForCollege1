@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/children_holiday/",
+  base: "/children-holiday/",
   plugins: [react(), tailwindcss()],
 });
