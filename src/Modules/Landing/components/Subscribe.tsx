@@ -1,4 +1,4 @@
-import { Input } from "../../../Components/input";
+import { Input } from "../../../Components/Input";
 
 export const Subscribe = () => {
   return (
