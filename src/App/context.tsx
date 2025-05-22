@@ -7,8 +7,6 @@ export const globalContext = createContext<GlobalContext>({
   algorithm: null,
 });
 
-//const stocks = useRef<HTMLLinkElement>(null)
-
 interface GlobalContext {
   stocks: RefObject<HTMLTableSectionElement | null> | null;
   find: RefObject<HTMLTableSectionElement | null> | null;
